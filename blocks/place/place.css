@@ -1,0 +1,32 @@
+/*блок секции places*/
+.place {
+  display: grid;
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content);
+  grid-gap: 48px 32px;
+  grid-template-areas:
+    "title website"
+    "image text";
+}
+
+@media screen and (min-width:1279px) {
+  .place {
+    grid-gap: 48px 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "text";
+    grid-gap: 32px 0;
+  }
+}
