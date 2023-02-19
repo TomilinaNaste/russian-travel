@@ -1,15 +1,15 @@
 /*Секция placec*/
 .places {
-  max-width: calc(100% - 2 * 48px);
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   row-gap: 80px;
   padding-bottom: 92px;
 }
 
-@media screen and (min-width:1279px) {
+@media screen and (max-width:1279px) {
   .places {
-    max-width: 984px;
+    max-width: calc(100% - 2 * 48px);
   }
 }
 

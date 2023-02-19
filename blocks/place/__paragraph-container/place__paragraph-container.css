@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph-container {
-    row-gap: 25px;
     padding-left: 16px;
   }
 }

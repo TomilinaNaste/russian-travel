@@ -1,12 +1,12 @@
 .intro__container {
-  max-width: calc(100% - 2 * 48px);
+  max-width: 984px;
   margin: 0 auto;
 
 }
 
-@media screen and (min-width:1279px) {
+@media screen and (max-width:1279px) {
   .intro__container {
-    max-width: 984px;
+    max-width: calc(100% - 2 * 48px);
   }
 }
 

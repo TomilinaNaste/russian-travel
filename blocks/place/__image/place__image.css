@@ -1,11 +1,11 @@
 .place__image {
   grid-area: image;
-  width: 440px;
+  width: 460px;
   object-fit: cover;
 }
-@media screen and (min-width:1279px) {
+@media screen and (max-width:1279px) {
   .place__image {
-    width: 460px;
+    width: 440px;
   }
 }
 
