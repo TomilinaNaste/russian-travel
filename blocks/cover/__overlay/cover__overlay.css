@@ -1,6 +1,7 @@
 .cover__overlay {
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -35,12 +36,6 @@
 }
 
 @media screen and (max-width:1279px) {
-  .cover__overlay {
-    min-height: 62.5vw;
-  }
-}
-
-@media screen and (max-width: 1023px) {
   .cover__overlay {
     min-height: 62.5vw;
   }
